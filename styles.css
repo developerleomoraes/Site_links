@@ -1,3 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
 body{
     background-image: url(./assets/bg.jpg);
     background-position: top center;
@@ -6,12 +16,33 @@ body{
     background-color: #121214;
 }
 
-main *{
-    border: 1px solid red;
+body{
+    font-family: 'Inter', sans-serif;
+    line-height: 160%;
+
 }
+
 
 main{
     max-width: 580px;
     width: 90%;
     margin: auto;
+}
+
+section{
+    color: white;
+}
+
+section h2{
+    letter-spacing: -0.47px;
+}
+
+section p{
+    letter-spacing: -0.18px;
+    color: #A1A1AA
+}
+
+ul{
+    display: flex;
+    gap: 16px;
 }
